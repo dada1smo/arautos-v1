@@ -34,7 +34,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <body>
+      <body className="min-h-screen bg-radial-[at_25%_25%] from-amber-950 to-stone-900 to-75%">
         {children}
         <Scripts />
       </body>

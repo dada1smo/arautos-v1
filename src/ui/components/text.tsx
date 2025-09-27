@@ -25,7 +25,7 @@ interface TextProps {
 export const Text: React.FC<TextProps> = ({
   children,
   font = 'primary',
-  color = 'text-gray-900',
+  color = 'text-white',
   className = '',
   tag = 'p',
 }) => {
